@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 70%;
+        }
+
+        table td,
+        table th {
+            border: 1px solid rgb(82, 82, 82);
+            padding: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Uma tabela simples</h1>
+</body>
+<table> <!--TABELA-->
+    <caption>Tabela de preços!</caption>
+    <thead> <!--CABEÇALHO-->
+        <tr> <!--LINHA-->
+            <th>Descrição</th> <!--TITULO DA TABELA "COLUNA"-->
+            <th>Data venc.</th> <!--TITULO DA TABELA "COLUNA"-->
+            <th>valor</th> <!--TITULO DA TABELA "COLUNA"-->
+        </tr>
+    </thead>
+
+    <tbody> <!--CORPO DA TABELA-->
+        <tr>
+            <td>Iphone</td>
+            <td>15/04</td>
+            <td>400,00</td>
+        </tr>
+        <tr>
+            <td>Computador</td>
+            <td>15/04</td>
+            <td>600,00</td>
+        </tr>
+        <tr>
+            <td>Luz</td>
+            <td>15/04</td>
+            <td>400,00</td>
+        </tr>
+        <tr>
+            <td>Fogão</td>
+            <td>15/04</td>
+            <td>230,00</td>
+        </tr>
+    </tbody>
+</table>
+
+</html>
