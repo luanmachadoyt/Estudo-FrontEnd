@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Meu Formulario</h1>
+    <form action="#">
+        <p>
+            <label for="nome">Seu nome</label>
+            <input type="text" id="nome" name="nome">
+        </p>
+        <p>
+            <label for="dev1">Sou dev1</label>
+            <input type="checkbox" name="dev1" id="dev1">
+            <br>
+            <label for="dev2">Sou dev2</label>
+            <input type="checkbox" name="dev2" id="dev2">
+            <br>
+            <label for="dev">Sou dev3</label>
+            <input type="checkbox" name="dev" id="dev">
+        </p>
+        <p>
+
+            Genero:
+            <br>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino"> <br>
+
+            <label for="Femenino">Femenino</label>
+            <input type="radio" id="Femenino"> <br>
+
+            <label for="Outro">Outro</label>
+            <input type="radio" id="Outro">
+        </p>
+
+        <p>
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" value="2023-04-20">
+        </p>
+        <p>
+            <label for="datetime">Date</label>
+            <input type="datetime-local" id="datetime" name="datetime" value="2023-04-20T20:00">
+        </p>
+        <p>
+            <label for="time">Date</label>
+            <input type="time" id="time" name="time" value="20:00:05">
+        </p>
+        <p>
+            <label for="cor">Cor Preferida</label>
+            <input type="color" id="cor" name="cor" value="#FF0000">
+        </p>
+        <p>
+            <label for="email">Seu email</label>
+            <input type="email" id="email" name="email" placeholder="ex: email@gmail.com">
+        </p>
+        <p>
+            <label for="file">Sua foto</label>
+            <input type="file" id="file" name="file" accept=".png,.svg,.jpg">
+        </p>
+        <p>
+            <label for="number">Seu numero:</label>
+            <input type="number" id="number" name="number" placeholder="123...">
+        </p>
+        <p>
+            <label for="password">Sua senha</label>
+            <input type="password" id="password" name="password">
+        </p>
+        <p>
+            <label for="range">Seu nivel</label>
+            <input type="range" id="range" name="range">
+        </p>
+        <p>
+            <label for="url">Sua URL</label>
+            <input type="url" id="url" name="url" placeholder="sua url">
+        </p>
+        <p>
+            <label for="search">Busca</label>
+            <input type="search" id="search" name="search" placeholder="Pesquisar">
+        </p>
+        <p>
+            <label for="selecionar">Selecione</label>
+            <select name="selecionar" id="selecionar">
+                <option value="">Html</option>
+                <option value="">css</option>
+                <option value="">JS</option>
+                <option value="">Python</option>
+                <option value="">c++</option>
+            </select>
+        </p>
+        <p>
+            <label for="mensagem">Deixe sua mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+        </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <p>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </p>
+    </form>
+</body>
+
+</html>
