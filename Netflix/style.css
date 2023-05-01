@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #00081d;
+}
+.background{
+    background-image: url(background.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+header svg {
+    width: 150px;
+}
+header .entrar{
+    display: flex;
+    gap: 20px;
+}
+header .entrar .button {
+    padding: 8px 15px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;    
+}
+header .button:hover{
+    background-color: rgb(180, 0, 0);
+    transition: all .3s ease-in-out;
+}
+
+header .entrar select{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    color: white;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.titulo{
+    padding: 12% 12%;
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+}
+.titulo h1{
+    color: white;
+    font-size: 64px;
+    width: 700px;
+    padding-bottom: 15px;
+}
+
+.titulo h2{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.titulo .form{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    gap: 10px;
+}
+.titulo .form input{
+    width: 300px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.548);
+    border: 1px solid rgb(155, 155, 155);
+    padding: 0 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.titulo .form button{
+    width: 120px;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+}
+.titulo .form button:hover{
+    background-color: rgb(180, 0, 0);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
